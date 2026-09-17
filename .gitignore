@@ -1,0 +1,7 @@
+node_modules/
+playwright-report/
+test-results/
+dist/
+web-rig-assets.tar.gz
+artifacts/screenshots/*.png
+.DS_Store

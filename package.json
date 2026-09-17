@@ -1,0 +1,10 @@
+{
+  "name": "web-rig-guitar-pedalboard",
+  "private": true,
+  "type": "module",
+  "description": "Browser multi-FX guitar pedalboard",
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "screenshots": "node scripts/screenshot.mjs"
+  }
+}
