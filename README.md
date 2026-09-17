@@ -9,7 +9,11 @@ Browser multi-effects pedalboard for electric guitar. Processing runs in the tab
 
 ## Play it
 
-Open the deployed site (HTTPS is required for the microphone):
+HTTPS is required for the microphone.
+
+- Pedalboard: https://cdn.jsdelivr.net/gh/GizzZmo/web-rig-guitar-pedalboard@main/index.html
+- Vercel launcher: https://web-rig-guitar-pedalboard-gizzzmos-projects.vercel.app
+- Repo: https://github.com/GizzZmo/web-rig-guitar-pedalboard
 
 1. Plug the guitar into an audio interface **instrument / Hi-Z** input.  
 2. Use headphones from the same interface.  
@@ -19,7 +23,8 @@ Open the deployed site (HTTPS is required for the microphone):
 
 Expected feel is roughly 12–30 ms round-trip, plus the interface buffer. That is playable for practice. It is not a 64-sample ASIO DAW.
 
-Live site: https://gizzzmo.github.io/web-rig-guitar-pedalboard/
+To enable GitHub Pages at `https://gizzzmo.github.io/web-rig-guitar-pedalboard/`:
+**Settings → Pages → Build and deployment → Source: GitHub Actions**, then re-run the Pages workflow.
 
 ## Run locally
 
